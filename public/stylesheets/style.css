@@ -1,8 +1,19 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 38px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: midnightblue;
+  color: white;
+  text-align:center;
 }
 
 a {
   color: #00B7FF;
+}
+button {
+  width: 300px;
+  height: 150px;
+  font-size:  40px;
+  padding:20px;
+  border-radius: 8px;
+
 }
