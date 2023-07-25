@@ -12,7 +12,7 @@ async function randomJoke (){
 
 /* GET home page. */
 router.get('/', async function(req, res, next) {
-  res.render('index', { title: 'Get Chucked'});
+  res.render('index', { title: 'Chuck It To Me'});
 })
 router.get('/joke', async function(req, res, next) {
   res.render('joke', { title: 'Chuck It To Me', joke: await randomJoke() });
